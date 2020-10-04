@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = AppCenter;
+			productName = AppCenter;
 		};
 /* End PBXAggregateTarget section */
 
@@ -55,7 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		069603B7C887C06050381C7510B9DCA4 /* Pods_RetirementCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetirementCalculatorTests.framework; path = "Pods-RetirementCalculatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		069603B7C887C06050381C7510B9DCA4 /* Pods_RetirementCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1AA5828054D736231CEEF8FA04816F /* Pods-RetirementCalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetirementCalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
 		11D5D18913DC72CADFBCCF78753364FB /* Pods-RetirementCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetirementCalculator.modulemap"; sourceTree = "<group>"; };
 		2F05EAE621133F94D29BAE7D1538FB5F /* Pods-RetirementCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetirementCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
@@ -64,7 +65,7 @@
 		3BD68468276B15205BD5DFB5477725A8 /* AppCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.debug.xcconfig; sourceTree = "<group>"; };
 		42D9A6D205214EE3E34BBD3A45FD4D9F /* Pods-RetirementCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetirementCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
 		44973CBF74098FF13A41D5F9634C0233 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
-		487ADF0C8DB2AA250D25B372B62E3D9C /* Pods_RetirementCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetirementCalculator.framework; path = "Pods-RetirementCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		487ADF0C8DB2AA250D25B372B62E3D9C /* Pods_RetirementCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C35340F541AC533C0C4232F5B4B56B /* Pods-RetirementCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetirementCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		54E0AEC30EA4DE2A78FB9761717F8A54 /* Pods-RetirementCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RetirementCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		56D138F4DDDE2488E28C0297430C51FF /* Pods-RetirementCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetirementCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -74,10 +75,10 @@
 		87517B44BEEA38F81E8D97C7836957ED /* Pods-RetirementCalculatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetirementCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		967D029FCF2204EEA4AE6F92D2D9FB34 /* AppCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.release.xcconfig; sourceTree = "<group>"; };
 		9A58D754CDB629AE14EDA0AA309C4F82 /* Pods-RetirementCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RetirementCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4604A7F08C34467A9D5FAD420463279 /* Pods-RetirementCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetirementCalculatorTests.modulemap"; sourceTree = "<group>"; };
 		A8D10E17A8A0427D2F0F78E719816423 /* Pods-RetirementCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetirementCalculator.debug.xcconfig"; sourceTree = "<group>"; };
-		B617C2FAF1201F6BCAF5B5767010684F /* Pods_RetirementCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetirementCalculatorUITests.framework; path = "Pods-RetirementCalculatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B617C2FAF1201F6BCAF5B5767010684F /* Pods_RetirementCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetirementCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC51647DDD629880EEB0749E3BC0FB85 /* Pods-RetirementCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetirementCalculator-Info.plist"; sourceTree = "<group>"; };
 		C6D3E0475702CE57C064FBD1872B621F /* Pods-RetirementCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetirementCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6E17EDC9A3A1F2ACED702D9BDD7E940 /* Pods-RetirementCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetirementCalculator-umbrella.h"; sourceTree = "<group>"; };
@@ -272,7 +273,6 @@
 				6761EE334F7BF9305A98F133F847D3B0 /* Crashes */,
 				26E9FF33390CD4B95C5FD40FDCDD2763 /* Support Files */,
 			);
-			name = AppCenter;
 			path = AppCenter;
 			sourceTree = "<group>";
 		};
@@ -386,7 +386,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1200;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -566,7 +566,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -641,6 +641,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -744,6 +745,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -784,7 +786,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
