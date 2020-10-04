@@ -39,20 +39,19 @@ class ViewController: UIViewController,MSCrashesDelegate {
     }
     
     @IBAction func calculateButton_TouchUpInside(_ sender: Any) {
-      //  MSCrashes.generateTestCrash()
+        // MSCrashes.generateTestCrash()
+        let current_age : Int? = Int(ageTextField.text!)
+        let planned_retirement_age : Int? = Int(retirementAgeTextField.text!)
+        let monthly_investment : Float? = Float(monthlyInvestmentsTextField.text!)
+        let current_savings : Float? = Float(savingsTextField.text!)
+        let interest_rate : Float? = Float(interestRateTextField.text!)
         
-      //  MSAnalytics.trackEvent("calculate_retirement_amount")
-//        do{
-//            try withdrawCash(amount: -100)
-//        }catch IntParsingError.overflow{
-//            print("overflow")
-//        }
-//        catch{
-//
-//        }
-//
+        resultLabel.text = "If you save $\(monthly_investment!) every month for \(planned_retirement_age! - current_age!) years, and invest that money plus your current investment of $\(current_savings!) at a \(interest_rate!)% anual interest rate, you will have $X by the time you are \(planned_retirement_age!)"
         
+        let properties = ["current_age": String(current_age!),
+                          "planned_retirement_age": String(planned_retirement_age!)]
         
+        MSAnalytics.trackEvent("calculate_retirement_amount", withProperties: properties)
     }
 //    enum IntParsingError: Error {
 //        case overflow
@@ -62,8 +61,8 @@ class ViewController: UIViewController,MSCrashesDelegate {
 //        if amount < 0{
 //            throw IntParsingError.overflow
 //        }
-//        
-//        
+//
+//
 //    }
 
 }
